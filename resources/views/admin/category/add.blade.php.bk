@@ -1,0 +1,17 @@
+
+<table>
+    <tr>
+        <td><label for="category_name">Tên danh mục</label></label></td>
+        <td><input type="text" name="category_name" /></td>
+    </tr>
+    <tr>
+        <td><label for="category_parent">Danh mục cha</label></label></td>
+        <td><?php echo $selectcategory; ?></td>
+    </tr>
+    <tr>
+        <td><label for="category_parent">Trạng thái</label></label></td>
+        <td><input type="radio" checked="checked" name="category_status" value="0" />Hiện
+            <input type="radio" checked="checked" name="category_status" value="1" />Ẩn
+        </td>
+    </tr>
+</table>
